@@ -1,0 +1,441 @@
+   <!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>메인페이지</title>
+  <!-- 파비콘 -->
+   <link rel="icon" sizes="32x32" href="./img/favicon.png" type="image/png">
+  <!-- 공통스타일 -->
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/system.css">
+  <link rel="stylesheet" href="./css/real-footer.css">
+  <link rel="stylesheet" href="./css/thisisrealrealreal.css">
+  <!--이 페이지의 스타일-->
+  <link rel="stylesheet" href="./css/index.css"/>
+  
+  <!-- 헤더 푸터js -->
+  <script src="./js/include.js"></script>
+ <!-- <script src="./js/thisisrealrealreal.js"></script> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="./js/product-detail-cut.js"></script>
+<script src="./js/mainpage.js"></script>
+</head>
+<body>
+  <div class="header-wrap"></div>
+<!-- ========================================
+ 메인페이지 시작
+ ============================================ -->
+  <main class="wide-frame">
+    <!-- 메인 영상 배너 -->
+
+  <section class="main-banner swiper">
+  <ul class="banner-list swiper-wrapper">
+    
+    <!--  1. 영상 배너 -->
+    <li class="hero-banner swiper-slide">
+      <video autoplay loop muted playsinline>
+        <source src="./img/hero-banner.mp4" type="video/mp4">
+      </video>
+      <div class="hero-text">
+        <h1 class="title">A Moment Within Scent</h1>
+        <p>향기 속에서 머무는 순간</p>
+      </div>
+    </li>
+
+    <!--  2. 사진 배너 (텍스트 포함된 이미지) -->
+    <li class="hero-banner swiper-slide">
+      <a class="banner-link" href="/inscentalk.html"></a><img src="./img/main-banner/benner-pc01.jpg" alt="향수 이벤트 배너 1">
+    </li>
+
+    <!--  3. 사진 배너 -->
+    <li class="hero-banner  swiper-slide">
+      <a class="banner-link" href="/magazine.html"></a><img src="./img/main-banner/benner-pc02.jpg" alt="향수 이벤트 배너 2">
+    </li>
+
+    <!--  4. 사진 배너 -->
+    <li class="hero-banner  swiper-slide">
+      <a class="banner-link" href="/ai.html"></a><img src="./img/main-banner/benner-pc03.jpg" alt="향수 이벤트 배너 3">
+    </li>
+
+  </ul>
+    <!--  페이징: wrapper(ul) 밖, .main-banner 안 -->
+  <div class="swiper-pagination"></div>
+
+  <!-- (옵션) 화살표 -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</section>
+
+<section class="main-banner-tab swiper">
+  <ul class="banner-list swiper-wrapper">
+    
+    <!--  1. 영상 배너 -->
+    <li class="hero-banner swiper-slide">
+      <video autoplay loop muted playsinline>
+        <source src="./img/hero-banner.mp4" type="video/mp4">
+      </video>
+      <div class="hero-text">
+        <h1 class="title">A Moment Within Scent</h1>
+        <p>향기 속에서 머무는 순간</p>
+      </div>
+    </li>
+
+    <!--  2. 사진 배너 (텍스트 포함된 이미지) -->
+    <li class="hero-banner swiper-slide">
+      <a class="banner-link" href="/inscentalk.html"></a><img src="./img/main-banner/banner-tab01.jpg" alt="향수 이벤트 배너 1">
+      
+    </li>
+
+    <!--  3. 사진 배너 -->
+    <li class="hero-banner  swiper-slide">
+      <a class="banner-link" href="/magazine.html"></a><img src="./img/main-banner/banner-tab02.jpg" alt="향수 이벤트 배너 2">
+    </li>
+
+    <!--  4. 사진 배너 -->
+    <li class="hero-banner  swiper-slide">
+      <a class="banner-link" href="/ai.html"></a><img src="./img/main-banner/banner-tab03.jpg" alt="향수 이벤트 배너 3">
+    </li>
+
+  </ul>
+    <!--  페이징: wrapper(ul) 밖, .main-banner 안 -->
+  <div class="swiper-pagination"></div>
+
+  <!-- (옵션) 화살표 -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</section>
+
+<section class="main-banner-mo swiper">
+  <ul class="banner-list swiper-wrapper">
+    
+    <!--  1. 영상 배너 -->
+    <li class="hero-banner swiper-slide">
+      <video autoplay loop muted playsinline>
+        <source src="./img/hero-banner.mp4" type="video/mp4">
+      </video>
+      <div class="hero-text">
+        <h1 class="title">A Moment Within Scent</h1>
+        <p>향기 속에서 머무는 순간</p>
+      </div>
+    </li>
+
+    <!--  2. 사진 배너 (텍스트 포함된 이미지) -->
+    <li class="hero-banner swiper-slide">
+      <a class="banner-link" href="/inscentalk.html"></a>
+      <img src="./img/main-banner/banner-mo01.jpg" alt="향수 이벤트 배너 1">
+    </li>
+
+    <!--  3. 사진 배너 -->
+    <li class="hero-banner  swiper-slide">
+      <a class="banner-link" href="/magazine.html"></a>
+      <img src="./img/main-banner/banner-mo02.jpg" alt="향수 이벤트 배너 2">
+    </li>
+
+    <!--  4. 사진 배너 -->
+    <li class="hero-banner  swiper-slide">
+      <a class="banner-link" href="/ai.html"></a>
+      <img src="./img/main-banner/banner-mo03.jpg" alt="향수 이벤트 배너 3">
+    </li>
+
+  </ul>
+    <!--  페이징: wrapper(ul) 밖, .main-banner 안 -->
+  <div class="swiper-pagination"></div>
+
+  <!-- (옵션) 화살표 -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</section>
+
+<div class="header-color-wrap"></div>
+<div class="wide-frame">
+    <!-- 신상품 섹션 -->
+  <div class="common-frame">
+    <section class="main-new">
+      <!-- 섹션 타이틀 -->
+      <div class="new-txt">
+        <h1 class="title">NEW</h1><div class="onlymo"><img src="./img/Line 2.svg" alt=""></div>
+        <p class="b1">새로운 향은 언제나 새로운 기억을 남깁니다. 당신의 오늘을 닮은 향, 지금 가장 먼저 만나보세요.</p>
+      </div>
+
+      <div class="new-list-frame">
+        <!-- 카테고리 내비게이션 -->
+        <ul class="new-category">
+          <li><a href="#" data-category="PERFUME">PERFUME</a></li>
+          <li><a href="#" data-category="BODY">BODY</a></li>
+          <li><a href="#" data-category="HAIR">HAIR</a></li>
+          <li><a href="#" data-category="ETC">ETC.</a></li>
+        </ul>
+
+
+        <!-- 스와이프 슬라이더 -->
+        <div class="slider-wrap">
+          <button class="btn-prev" aria-label="이전 상품">
+            <img src="./img/icons/arrow-left.svg" alt="이전상품보기">
+          </button>
+
+          <div class="new-track swiper">
+            <ul class="new-list swiper-wrapper">
+              <!-- js-li -->
+            </ul>
+          </div>
+
+          <button class="btn-next" aria-label="다음 상품">
+            <img src="./img/icons/arrow-right.svg" alt="다음 상품 보기">
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+    <!-- 랭킹 섹션 -->
+    <div class="rank-bg">
+      <section class="main-ranking common-frame " aria-labelledby="ranking-title">
+        <div class="ranking-head">
+          <h1 id="ranking-title" class="title">RANKING</h1>
+          <p>가장 많은 사람들이 선택한 향수, 지금 인센트에서 가장 뜨거운 향기들을 만나보세요.</p>
+        </div>
+        
+        <div class="ranking-wrap">
+          <ol id="rank-list" class="rank-list"></ol>
+        </div>
+      </section>
+    </div>
+
+    <!-- 매거진 영역 -->
+    <section class="magazine-section common-frame" aria-labelledby="magazine-title">
+  <div class="mz-frame">
+    <div class="magazine-header">
+      <h1 id="magazine-title">MAGAZINE</h1>
+      <p>향기에 담긴 이야기를 전합니다.<br>
+        브랜드 인터뷰부터 향 트렌드까지, 향의 세계를 깊이 있게 탐구해보세요.</p>
+    </div>
+
+    <div class="magazine-wrap">
+      <!-- Left: Main article -->
+      <article class="magazine-main">
+        <a href="./magazine-post1.html" class="magazine-main-link">
+          <figure>
+            <img src="./img/magazine/mz0.jpg" alt="니치향수 vs 패션향수">
+            <figcaption>
+              <h3>니치향수 VS 패션향수</h3>
+              <p>취향의 시대, 우리는 무엇을 고를까</p>
+            </figcaption>
+          </figure>
+        </a>
+      </article>
+
+      <!-- Right: Sub articles -->
+      <div class="magazine-side">
+        <article class="magazine-item">
+          <a href="./magazine-post2.html">
+            <figure><img src="./img/magazine/mz1.jpg" alt="향수 농도의 비밀"></figure>
+            <div class="magazine-txt">
+              <h4>향수, 그 농도의 비밀</h4>
+              <p>농도에 따라 달라지는 향의 개성과 지속력 <br> 1. 퍼퓸 (Parfum / Extrait de Parfum 향료 농도 약 20–30%, 지속 시간은 8시간 이상으로 가장 진하고 깊은 향을 가진 제품입니다 소량만 사용해도 강렬한 인상을 남기며, 겨울이나 저녁 자리 같은 분위기 있는 상황에 잘 어울립니다 ‘몇 방울로 하루를 채운다’는 말처럼, 향수 이상의 존재감을 보여주는 농도입니다.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="magazine-item">
+          <a href="./magazine-post3.html">
+            <figure><img src="./img/magazine/mz2.jpg" alt="뿌리는 위치에 따라 달라지는 매력"></figure>
+            <div class="magazine-txt">
+              <h4>뿌리는 위치에 따라 달라지는 매력</h4>
+              <p>같은 향수도 어디에 뿌리느냐에 따라 전혀 다른 인상을 남깁니다 <br>1. 맥박이 뛰는 곳 – 손목, 목, 귀 뒤 체온이 가장 높은 부위로 향이 자연스럽게 퍼져 ‘내 몸의 향’처럼 느껴지게 합니다. 가까이에서 은은하게 전달되기 때문에 데이트나 특별한 저녁 외출에 잘 어울립니다.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="magazine-item">
+          <a href="./magazine-post4.html">
+            <figure><img src="./img/magazine/mz3.jpg" alt="초보자를 위한 향수 시향 가이드"></figure>
+            <div class="magazine-txt">
+              <h4>초보자를 위한 향수 시향 가이드</h4>
+              <p>향수 매장에서 무엇부터 맡아야 할지 모르겠다면, 이 기본 시향 팁부터 시작해보세요. <br> 1. 시향지(블로터)로 먼저 테스트향수는 시향지에 뿌려 첫 향(탑 노트)과 시간 이후 변하는 향(미들·베이스 노트)을 확인하는 것이 중요합니다.뿌리자마자 맡지 말고, 최소 1~2분 정도 지나고 다시 향을 맡아보세요.처음 향에만 속지 않고, 향의 변화를 느끼는 것이 시향의 핵심입니다.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- 배너 영역 -->
+    <section class="small-banner ">
+      <img src="./img/main-banner01.jpg" alt="">
+    </section>
+
+    <!-- 커뮤니티 영역 -->
+    <div class="common-frame">
+    <section class="main-community">
+      <div class="main-title">
+        <h1 class="title">INSCENTALK</h1>
+      </div>
+      
+      <p>취향을 나누고, 질문하고, 함께 공감해보세요.</p>
+      <div class="talk-wrap">
+      <article class="ad">
+          <div class="main-ad-wrap">
+            <a href="./inscenttalk-main.html"><img class="com-img" src="./img/talk.jpg" alt="고민상담 게시글 이미지">
+              <h1>ADVICE</h1>
+            </a>
+            <div class="ad-right">
+                <div class="ad-card"><a href="./inscentalk.html">
+                  <h4>세 가지 향수 중에 뭐가 저한테 더 어울릴까요?</h4>
+                  <p>안녕하세요! 다들 요즘 날씨 완전 가을가을하죠 🍂
+요즘 향수 바꿔보려고 이것저것 시향 중인데, 세 개 중에서 도저히 못 고르겠어요ㅠㅠ
+제가 고민중인건 르라보 상탈33 / 조 말론 / 우드 세이지 앤 씨 솔트 / 디올 / 미스 디올 블루밍 부케 요것들 중에 고민중이에요</p>
+                    <div class="talk-meta">
+                      <span class="author">향돌이</span>
+                      <span class="time">· 48분</span>
+                      <span class="view">· 조회312</span>
+                      <span class="comment"> <img src="./img/icons/clarity_talk-bubbles-line.svg" alt="고민상담 게시글 이미지"> 7</span>
+                    </div>
+                </a>
+              </div>
+                <div class="ad-card"><a href="./inscentalk.html">
+                  <h4>남친 선물용 향수 추천 좀 해주세요</h4>
+                  <p>안녕하세요, 다들 도움 좀 부탁드려요. 남자친구 생일 선물로 향수를 사주고 싶은데, 너무 강한 향은 싫어하고 깔끔하면서 세련된 느낌이면 좋겠어요.혹시 추천해주실 만한 브랜드나 향수 있을까요?</p>
+                    <div class="talk-meta">
+                      <span class="author">초코</span>
+                      <span class="time">· 어제</span>
+                      <span class="view">· 조회692</span>
+                      <span class="comment"> <img src="./img/icons/clarity_talk-bubbles-line.svg" alt="고민상담 게시글 이미지"> 9</span>
+                    </div>
+                </a>
+              </div>
+                <div class="ad-card"><a href="./inscentalk.html">
+                  <h4>이번 주 새로 나온 향수 써본 사람 있나요?</h4>
+                  <p>이번 주에 입생로랑 브랜드에서 새로 나온 향수 나왔다고 해서 궁금한데,
+혹시 써보신 분 있어요?
+광고 사진만 보면 플로럴 느낌인데, 실제로는 어떤지 궁금하네요.</p>
+                    <div class="talk-meta">
+                      <span class="author">구름빵</span>
+                      <span class="time">· 2일전</span>
+                      <span class="view">· 조회1102</span>
+                      <span class="comment"> <img src="./img/icons/clarity_talk-bubbles-line.svg" alt="자유수다 게시글 이미지"> 10</span>
+                    </div>
+                </a>
+              </div>              
+            </div>
+          </div>
+      </article>
+      <article class="FREETALK">
+        <div class="main-free-wrap">
+          
+            <a href="./inscenttalk-main.html"><img class="com-img" src="./img/reveiw.jpg" alt="자유수다 게시글 이미지">
+            <h1>FREE<br>TALK</h1>
+            </a>
+            <div class="free-right">
+                <div class="free-card"><a href="./inscentalk2.html">
+                  <h4>요즘 가을에 잘 어울리는 향수 뭐 쓰세요?</h4>
+                  <p>안녕하세요 :)
+요즘 날씨가 확실히 선선해지면서, 향수도 가을 느낌 나게 바꿔보고 싶다는 생각이 들었어요.
+여름에는 가볍고 시원한 시트러스 계열을 자주 뿌렸는데, 이제는 좀 더 따뜻하고 포근한 향이 끌리더라구요.
+근데 그렇다고 너무 묵직하거나 스모키한 건 좀 부담스러워서... 은은하면서도 존재감 있는, 그런 향을 찾고 있어요.
+가을에 어울리는 향으로 뭐가 제일 나을지 조언 부탁드려요 🙏✨
+</p>
+                    <div class="talk-meta">
+                      <span class="author">꿀꿀이</span>
+                      <span class="time">· 58분</span>
+                      <span class="view">· 조회213</span>
+                      <span class="comment"> <img src="./img/icons/clarity_talk-bubbles-line.svg" alt="자유수다 게시글 이미지"> 3</span>
+                    </div>
+                </a>
+              </div>
+                <div class="free-card"><a href="./inscentalk2.html">
+                  <h4>향수 냄새가 잘 안 느껴져요, 왜 그런 걸까요?</h4>
+                  <p>안녕하세요!
+평소에 향수 뿌리면 금방 향이 퍼지고 좋았는데,
+최근 들어 뿌려도 거의 안 느껴져서 고민이에요.
+후각이 둔해진 건가 싶기도 하고… 혹시 이런 경험 있으신 분 계신가요?</p>
+                    <div class="talk-meta">
+                      <span class="author">맹구</span>
+                      <span class="time">· 2시간</span>
+                      <span class="view">· 조회431</span>
+                      <span class="comment"> <img src="./img/icons/clarity_talk-bubbles-line.svg" alt=""> 5</span>
+                    </div>
+                </a>
+              </div>
+                <div class="free-card"><a href="./inscentalk2.html">
+                  <h4>데일리 향수 하나 사려고 하는데 고민돼요</h4>
+                  <p>안녕하세요!
+회사랑 학교 다닐 때 둘 다 무난하게 쓸 수 있는 향수 하나 사고 싶은데, 너무 무겁거나 강한 향은 싫어요.
+달콤한 느낌보다는 은은하고 깔끔한 향이면 좋겠는데… 추천 좀 부탁드려요.
+딥디크 필로시크스는 괜찮을까요 ?</p>
+                    <div class="talk-meta">
+                      <span class="author">김향기</span>
+                      <span class="time">· 어제</span>
+                      <span class="view">· 조회932</span>
+                      <span class="comment"> <img src="./img/icons/clarity_talk-bubbles-line.svg" alt=""> 6</span>
+                    </div>
+                </a>
+            </div>
+          </div>
+      </article>
+      </div>
+    </section>
+  </div>
+    </div>
+  </main>
+
+</div>
+
+</body>
+<script>
+  const heroPC = new Swiper('.main-banner', {
+    direction: 'horizontal',
+    loop: true,
+      
+    preventClicks: false,
+    preventClicksPropagation: false,
+    // 필요 시 링크 있는 슬라이드만 스와이프 금지
+  // noSwiping: true,
+  // noSwipingSelector: '.banner-link',
+    autoplay: { delay: 3000, disableOnInteraction: false },
+    pagination: { el: '.main-banner .swiper-pagination', clickable: true },
+    navigation: {
+      nextEl: '.main-banner .swiper-button-next',
+      prevEl: '.main-banner .swiper-button-prev'
+    }
+  });
+
+  const heroTAB = new Swiper('.main-banner-tab', {
+    direction: 'horizontal',
+    loop: true,
+        preventClicks: false,
+    preventClicksPropagation: false,
+    // 필요 시 링크 있는 슬라이드만 스와이프 금지
+  // noSwiping: true,
+  // noSwipingSelector: '.banner-link',
+    autoplay: { delay: 3000, disableOnInteraction: false },
+    pagination: { el: '.main-banner-tab .swiper-pagination', clickable: true },
+    navigation: {
+      nextEl: '.main-banner-tab .swiper-button-next',
+      prevEl: '.main-banner-tab .swiper-button-prev'
+    }
+  });
+
+  // Mobile
+const moSwiper = new Swiper('.main-banner-mo', {
+  loop: true,
+  autoplay: { delay: 4000 },
+      preventClicks: false,
+    preventClicksPropagation: false,
+    // 필요 시 링크 있는 슬라이드만 스와이프 금지
+  // noSwiping: true,
+  // noSwipingSelector: '.banner-link',
+  pagination: { el: '.main-banner-mo .swiper-pagination', clickable: true },
+  navigation: { nextEl: '.main-banner-mo .swiper-button-next', prevEl: '.main-banner-mo .swiper-button-prev' },
+});
+</script>
+
+<div class="footer-real-wrap"></div>
+</html>
+

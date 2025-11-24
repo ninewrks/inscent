@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTLIST</title>
+
+    <!-- 파비콘 --> <link rel="icon" sizes="32x32" href="./img/favicon.png" type="image/png">
+
+    <!-- 스타일 -->
+<link rel="stylesheet" href="./css/reset.css"/>
+<link rel="stylesheet" href="./css/font.css"/>
+<link rel="stylesheet" href="./css/system.css"/>
+
+
+           <!-- 헤더 푸터 css -->
+    <link rel="stylesheet" href="./css/header-color.css">
+    <link rel="stylesheet" href="./css/real-footer.css">
+
+<!-- <link rel="stylesheet" href="./css/real-footer.css">
+<link rel="stylesheet" href="./css/thisisrealrealreal.css"> -->
+<link rel="stylesheet" href="./css/product-list.css">
+
+<!-- <script src="./js/thisisrealrealreal.js"></script> -->
+
+<script src="./js/product-detail-cut.js"></script> <!-- detailList -->
+<script src="./js/product-thumb.js"></script>      <!-- thumbList -->
+<script src="./js/product-list.js" defer></script> <!-- 렌더링 -->
+
+
+</head>
+
+<body>  
+<div class="wide-frame">
+   <div class="header-color-wrap"></div>
+
+<main class="p-lst-wrap ">
+  <div class="banner">
+  <h1 class="point">PRODUCTLIST</h1>
+  </div>
+  <div class="wide-frame">
+  <div class="p-wrap common-frame">
+    <div class="p-inner-wrap">
+    <section class="p-cate">
+      <dl class="point">
+        <dt>CATEGORY</dt>
+        <dd data-cat="ALL" class="is-active">ALL</dd>
+        <dd data-cat="PERFUME">PERFUME</dd>
+        <dd data-cat="BODY">BODY</dd>
+        <dd data-cat="HAIR">HAIR</dd>
+        <dd data-cat="ETC">ETC.</dd>
+      </dl>
+    </section>
+
+
+    <button type="button"
+            class="btn-filter-pc-hidden"
+            aria-expanded="false"
+            aria-controls="filter-wrap">
+      <img src="./img/icons/Menu.svg" alt="메뉴">
+      <span>필터</span>
+    </button>
+
+    <section class="filter-wrap" id="filter-wrap" aria-label="향수 검색 필터">
+      <div class="filter-header">
+        <p class="detail">검색 필터 설정</p>
+        <div class="filter-actions">
+          <button type="button" class="btn-reset">검색 초기화</button>
+          <button type="button" class="btn-view">상품 보기</button>
+        </div>
+      </div>
+
+      <!-- 향 계열 -->
+      <div class="acc-item">
+        <button class="acc-head" type="button">향 계열</button>
+        <div class="acc-panel">
+          <div class="tag-list" data-name="scent">
+            <button class="tag">플로랄</button>
+            <button class="tag">프레시</button>
+            <button class="tag">우디</button>
+            <button class="tag">오리엔탈</button>
+            <button class="tag">기타</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 분위기 -->
+      <div class="acc-item">
+        <button class="acc-head" type="button">분위기</button>
+        <div class="acc-panel">
+          <div class="tag-list" data-name="mood">
+            <button class="tag">자신감 있는</button>
+            <button class="tag">편안함</button>
+            <button class="tag">로맨틱한</button>
+            <button class="tag">에너제틱한</button>
+            <button class="tag">신비로운</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 가격대 -->
+      <div class="acc-item">
+        <button class="acc-head" type="button">가격대</button>
+        <div class="acc-panel">
+          <div class="tag-list" data-name="price" data-group="single">
+            <button class="tag" data-min="0" data-max="50000">5만원 이하</button>
+            <button class="tag" data-min="50000" data-max="100000">5–10만원</button>
+            <button class="tag" data-min="100000" data-max="200000">10–20만원</button>
+            <button class="tag" data-min="200000" data-max="">20만원 이상</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 지속력 -->
+      <div class="acc-item">
+        <button class="acc-head" type="button">지속력</button>
+        <div class="acc-panel">
+          <div class="tag-list" data-name="longevity" data-group="single">
+            <button class="tag">가볍고 은은하게</button>
+            <button class="tag">오래가고 진하게</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+  <!-- 상품 리스트 -->
+  <section class="product-list" aria-label="상품 리스트">
+    <div class="sort-wrap">
+       <button class="sort-btn is-active" data-sort="new">신상품순</button>
+       <button class="sort-btn" data-sort="review">리뷰 많은 순</button>
+       <button class="sort-btn" data-sort="low">낮은 가격순</button>
+       <button class="sort-btn" data-sort="high">높은 가격순</button>
+     </div>
+
+  <ul class="product-grid"></ul>   
+    <ul class="product-grid"></ul>
+    <!-- 페이지네이션 (여기) -->
+    <ul class="pager"></ul>
+  </section>
+  </div>
+</div> 
+</main>
+
+ </div>
+    <div class="footer-real-wrap"></div>
+    <script src="./js/include-color.js"></script> 
+   
+</body>
+</html> 

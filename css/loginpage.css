@@ -1,0 +1,240 @@
+/* @media (min-width:1920px){ */
+    body{
+
+        margin: 0 auto;
+    }
+
+html{
+    font-size: 20px;
+}
+.wide-frame .loginpage{
+    margin-top: 4rem;
+}
+.title__title{
+    
+}
+
+.main-space {
+    display: flex;
+    gap: 21.5rem;
+}
+.main-space .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form {
+    padding-top: 5.7rem;
+    border-top: 1px solid var(--slate-gray-600);
+    margin-bottom: 2.05rem;
+}
+.form label{
+    display: none;
+}
+.form input {
+    display: flex;
+    gap: 10px;
+    /* width: 532px; */
+    /* height: 43px; */
+    width: 100%;
+    height: 2.15rem;
+}
+.form input::placeholder {
+  padding-left: 0.5rem;
+}
+.check{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.9rem;
+    font-size: 0.8rem;
+}
+.check__left{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+}
+.check__right{
+    font-size: 0.8rem;
+}
+.check input{
+    width: auto;
+    height: auto;
+}
+.check label{
+    display: inline-block;
+}
+.login__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+.login__btns a {
+    width: 100%;
+    height: 2.15rem;
+    color: white;
+    background-color: var(--slate-gray-500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__btns a:last-of-type{
+    width: 100%;
+    height: 2.15rem;
+    color: var(--slate-gray-500);
+    border: 1px solid var(--slate-gray-500);
+    background-color: white;
+}
+.login__bottom{
+    text-align: right;
+}
+.login__bottom img{
+    width: 1rem;
+    aspect-ratio: 1/1;
+  vertical-align: middle;
+}
+
+.login__bottom p{
+    margin-bottom: 3.4rem;
+    font-size: 0.8rem;
+}
+.big__box{
+    display: flex;
+    justify-content: center;
+}
+.login__sns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.login__sns figure{
+    display: flex;
+    gap: 1rem;
+}
+.fake__img{
+    margin-bottom: 2.45rem;
+}
+.fakediv{
+    width: 9rem;
+}
+
+@media (max-width:1440px){
+    html{
+        font-style: 18px;
+    }
+    .wide-frame .loginpage {
+    margin-top: 0;
+}
+    .loginpage .main-space {
+    display: flex;
+    gap: 10.56rem;
+}
+    .form {
+    padding-top: 3.33rem;
+    border-top: 1px solid var(--slate-gray-600);
+    margin-bottom: 2.28rem;
+}
+    .login__sns img{
+        width: 2.22rem;
+    }
+    .main-space {
+    display: flex;
+    gap: 6.11rem;
+}
+}
+
+@media (max-width:1024px){
+    html{
+        font-style: 18px;
+    }
+    .loginpage .main-space {
+    display: flex;
+    gap: 5.56rem;
+}
+    .form {
+    padding-top: 3.33rem;
+    border-top: 1px solid var(--slate-gray-600);
+    margin-bottom: 2.28rem;
+}
+    .login__sns img{
+        width: 2.22rem;
+    }
+    .main-space {
+    display: flex;
+    gap: 6.11rem;
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 14px;
+    }
+    .wide-frame .loginpage {
+    margin-top: 0;
+}
+    .login__sns img {
+    width: 1.79rem;
+}
+.check {
+    margin-top: 0.71rem;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 2.14rem;
+    font-size: 0.71rem;
+    flex-direction: column;
+    /* text-align: left; */
+}
+    .check__left {
+    display: flex;
+    flex-direction: row ;
+    gap: 0.71rem;
+}
+    .check__right {
+    font-size: 0.71rem;
+}
+    .form input {
+    display: flex;
+    gap: 0.71rem;
+    /* width: 532px; */
+    /* height: 43px; */
+    width: 100%;
+    height: 1.71rem;
+}
+.login__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.71rem;
+    font-size: 0.79rem;
+}
+    .login__btns a {
+    width: 100%;
+    height: 2rem;
+    color: white;
+    background-color: var(--slate-gray-500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .login__btns a:last-of-type {
+    width: 100%;
+    height: 2rem;
+    color: var(--slate-gray-500);
+    border: 1px solid var(--slate-gray-500);
+    background-color: white;
+}
+.login__bottom p {
+    margin-bottom: 0.71rem;
+    font-size: 0.79rem;
+}
+    .form {
+    padding-top: 2.86rem;
+    border-top: 1px solid var(--slate-gray-600);
+    margin-bottom: 2.14rem;
+}
+    .fake__img {
+    margin-bottom: 2.14rem;
+}
+}
+}
